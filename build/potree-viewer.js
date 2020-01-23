@@ -8345,23 +8345,6 @@ const layermanagerIcon = svg`<svg height="24" viewBox="0 0 24 24" width="24">
 		c0.2,0,0.3,0.2,0.3,0.4s-0.1,0.4-0.3,0.4l-11.5,5C12.1,12.9,12.1,12.9,12,12.9z M1.7,7.5L12,11.9l10.3-4.5L12,3L1.7,7.5z"/>
 </svg>`;
 
-const measureIcon = svg`<svg height="24" viewBox="0 0 24 24" width="24">
-	<path d="M6,24c-0.1,0-0.2-0.1-0.3-0.1l-5.5-5.5c-0.2-0.2-0.2-0.5,0-0.7L17.7,0.2c0.2-0.2,0.5-0.2,0.7,0l5.4,5.5
-		c0.2,0.2,0.2,0.5,0,0.7L6.3,23.9C6.2,24,6.1,24,6,24z M1.1,18l4.8,4.8L22.9,5.9l-4.8-4.8L1.1,18z"/>
-	<path d="M6.5,17.5c-0.1,0-0.2,0-0.3-0.1l-2.5-2.5c-0.2-0.2-0.2-0.5,0-0.7s0.5-0.2,0.7,0l2.4,2.5c0.2,0.2,0.2,0.5,0,0.7
-		C6.7,17.5,6.6,17.5,6.5,17.5z"/>
-	<path d="M8,14.9c-0.1,0-0.2,0-0.3-0.1l-2-2c-0.2-0.2-0.2-0.5,0-0.7c0.2-0.2,0.5-0.2,0.7,0l2,2c0.2,0.2,0.2,0.5,0,0.7
-		C8.2,14.9,8.1,14.9,8,14.9z"/>
-	<path d="M10.6,13.2c-0.1,0-0.2,0-0.3-0.1l-2.5-2.5c-0.2-0.2-0.2-0.5,0-0.7c0.2-0.2,0.5-0.2,0.7,0l2.5,2.5c0.2,0.2,0.2,0.5,0,0.7
-		C10.9,13.1,10.9,13.2,10.6,13.2z"/>
-	<path d="M11.9,10.4c-0.1,0-0.2,0-0.3-0.1L9.8,8.5C9.6,8.3,9.6,8,9.8,7.8c0.2-0.2,0.5-0.2,0.7,0l1.8,1.8c0.2,0.2,0.2,0.5,0,0.7
-		C12.2,10.4,12.2,10.4,11.9,10.4z"/>
-	<path d="M15,8.9c-0.1,0-0.2,0-0.3-0.1l-2.5-2.5c-0.2-0.2-0.2-0.5,0-0.7c0.2-0.2,0.5-0.2,0.7,0l2.5,2.5c0.2,0.2,0.2,0.5,0,0.7
-		C15.2,8.9,15.2,8.9,15,8.9z"/>
-	<path d="M16.6,6.4c-0.1,0-0.2,0-0.3-0.1l-2-2c-0.2-0.2-0.2-0.5,0-0.7c0.2-0.2,0.5-0.2,0.7,0l2,2c0.2,0.2,0.2,0.5,0,0.7
-		C16.9,6.3,16.6,6.4,16.6,6.4z"/>
-		</svg>`;
-
 const searchIcon$1 = svg`<svg height="24" viewBox="0 0 24 24" width="24">
 	<path d="M8.5,17C3.8,17,0,13.2,0,8.5S3.9,0,8.5,0S17,3.8,17,8.5S13.2,17,8.5,17z M8.5,1C4.4,1,1.1,4.4,1.1,8.5S4.4,16,8.5,16
 		S16,12.6,16,8.5S12.7,1,8.5,1z"/>
@@ -16028,1204 +16011,7 @@ const iconCog = svg `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
 const iconDelete = svg `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>  bin</title><path d="M4.5 24C3.7 24 3 23.3 3 22.5V4H0.5C0.2 4 0 3.8 0 3.5S0.2 3 0.5 3H7V1.5C7 0.7 7.7 0 8.5 0h7C16.3 0 17 0.7 17 1.5V3h6.5C23.8 3 24 3.2 24 3.5S23.8 4 23.5 4H21v18.5c0 0.8-0.7 1.5-1.5 1.5H4.5zM4 22.5C4 22.8 4.2 23 4.5 23h15c0.3 0 0.5-0.2 0.5-0.5V4H4V22.5zM16 3V1.5C16 1.2 15.8 1 15.5 1h-7C8.2 1 8 1.2 8 1.5V3H16z"/><path d="M7.5 19.5C7.2 19.5 7 19.3 7 19V7c0-0.3 0.2-0.5 0.5-0.5S8 6.7 8 7v12C8 19.3 7.8 19.5 7.5 19.5z"/><path d="M12 19.5c-0.3 0-0.5-0.2-0.5-0.5V7c0-0.3 0.2-0.5 0.5-0.5 0.3 0 0.5 0.2 0.5 0.5v12C12.5 19.3 12.3 19.5 12 19.5z"/><path d="M16.5 19.5c-0.3 0-0.5-0.2-0.5-0.5V7c0-0.3 0.2-0.5 0.5-0.5S17 6.7 17 7v12C17 19.3 16.8 19.5 16.5 19.5z"/></svg>`;
 const arrowForwardIcon = svg`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z"/></svg>`;
 
-/*global String*/
-/*global atob*/
-String.prototype.startsWith = (String.prototype.startsWith || function(needle)   { return (this.indexOf(needle) === 0); });
-String.prototype.padStart   = (String.prototype.padStart   || function(len, pad) { let str = this; while(str.length < len) { str = pad + str; } return str; });
-
-
-/*
-    Code golfing:
-    This is a compacted list of all 148 CSS color names (from https://github.com/bahamas10/css-color-names/blob/master/css-color-names.json).
-    Every seven characters in this array is a name and its RGB value.
-
-        //3 chars name hash (rudimentary, but just enough to separate all unique colors),
-        //based on https://stackoverflow.com/a/15710692/1869660
-        hash = [].reduce.call(name.replace('ey','ay'), (h, c) => (h << 2) + c.charCodeAt(0), 0)
-                            .toString(36).slice(-3);
-
-        //4 chars base64 color value. Split the hex into [R, G, B], cast to bytes and base64-encode the byte array:
-        hex64 = btoa( hex.match(/../g).map(x => String.fromCharCode(parseInt(x, 16))).join('') );
-
-const colorNames = '735AACA770//Xub218Pj/mo5+uvX6mdAP//gtpf//Ur258P//q1d9fXcxop/+TEq9zAAAAqfg/+vN6m1AAD/ngoiiviqt6pSoqzyo3riHxvdX56grk1f/8Aax10mkeqts/39QxbtZJXttkb//jcyxm3BQ86rmAP//wl5AACLwqqAIuL3y8uIYLwv1qampniqAGQAns5vbdrmohiwCLw5uVWsvsdd/4wAsegmTLMqagiwAAsqi6ZZ6uz6j7yPxtzSD2Lxk3L09PudbAM7RwsolADT0kz/xSTfuhAL//vfhaWlpyuxHpD/43rsiIiwn9//rw39uIosi9bp/wD/6w73Nzc9s5+Pj/6v8/9cA3b42qUg6vxgICArmaAIAAtdfrf8vf9n8P/wek3/2m0xnczVxc3bvSwCCsdt///wrvp8OaMs5i5ub6iyk//D1e8ifPwAoui//rNpyxrdjmw9c8ICAq4i4P//mx9+vrSq8t09PTx1ukO6Qqlv/7bBuuy/6B690uILKqpfdh876sd9d4iZnehsMTe0dv///g71lAP8A4nmMs0ys9u+vDmg9d/wD/4pmgAAAcurZs2qzllAADN4lkulXT6txk3Db66qPLNxozre2juokuAPqalj3SNHMgdkxxWF60pGRlwxfl9f/6hr5/+Thx6q/+S1m85/96tutd/fXmszxgIAAe4ma44j8rl/6UAmu0/0UA8so2nDWji87uiqumqmPuY9xbr+7u4rs23CTsb8/+/V95a/9q577xzYU/78z/8DL7b53aDdsu1sODmb11gACAy5nZjOZ1so/wAAlvevI+Pn09QWnhm7ui0UT94q+oBy7ei9KRg5aqLotXad5oFItasmwMDAaihh87r9fdalrN9p9cICQ7gz//r6k5uAP9/4qhRoK01te0rSM7cwAICA91x2L/Yclr/2NHcw1QODQd6w7oLuua09d6zudh////t359fX1enn//8Ao0ims0y';
-let  colorNamesDeser;
-*/
-
-//https://github.com/bahamas10/css-color-names/blob/master/css-color-names.json
-//  const colorNames = { aliceblue:'#f0f8ff', antiquewhite:'#faebd7', aqua:'#00ffff', aquamarine:'#7fffd4', azure:'#f0ffff', beige:'#f5f5dc', bisque:'#ffe4c4', black:'#000000', blanchedalmond:'#ffebcd', blue:'#0000ff', blueviolet:'#8a2be2', brown:'#a52a2a', burlywood:'#deb887', cadetblue:'#5f9ea0', chartreuse:'#7fff00', chocolate:'#d2691e', coral:'#ff7f50', cornflowerblue:'#6495ed', cornsilk:'#fff8dc', crimson:'#dc143c', cyan:'#00ffff', darkblue:'#00008b', darkcyan:'#008b8b', darkgoldenrod:'#b8860b', darkgray:'#a9a9a9', darkgreen:'#006400', darkgrey:'#a9a9a9', darkkhaki:'#bdb76b', darkmagenta:'#8b008b', darkolivegreen:'#556b2f', darkorange:'#ff8c00', darkorchid:'#9932cc', darkred:'#8b0000', darksalmon:'#e9967a', darkseagreen:'#8fbc8f', darkslateblue:'#483d8b', darkslategray:'#2f4f4f', darkslategrey:'#2f4f4f', darkturquoise:'#00ced1', darkviolet:'#9400d3', deeppink:'#ff1493', deepskyblue:'#00bfff', dimgray:'#696969', dimgrey:'#696969', dodgerblue:'#1e90ff', firebrick:'#b22222', floralwhite:'#fffaf0', forestgreen:'#228b22', fuchsia:'#ff00ff', gainsboro:'#dcdcdc', ghostwhite:'#f8f8ff', gold:'#ffd700', goldenrod:'#daa520', gray:'#808080', green:'#008000', greenyellow:'#adff2f', grey:'#808080', honeydew:'#f0fff0', hotpink:'#ff69b4', indianred:'#cd5c5c', indigo:'#4b0082', ivory:'#fffff0', khaki:'#f0e68c', lavender:'#e6e6fa', lavenderblush:'#fff0f5', lawngreen:'#7cfc00', lemonchiffon:'#fffacd', lightblue:'#add8e6', lightcoral:'#f08080', lightcyan:'#e0ffff', lightgoldenrodyellow:'#fafad2', lightgray:'#d3d3d3', lightgreen:'#90ee90', lightgrey:'#d3d3d3', lightpink:'#ffb6c1', lightsalmon:'#ffa07a', lightseagreen:'#20b2aa', lightskyblue:'#87cefa', lightslategray:'#778899', lightslategrey:'#778899', lightsteelblue:'#b0c4de', lightyellow:'#ffffe0', lime:'#00ff00', limegreen:'#32cd32', linen:'#faf0e6', magenta:'#ff00ff', maroon:'#800000', mediumaquamarine:'#66cdaa', mediumblue:'#0000cd', mediumorchid:'#ba55d3', mediumpurple:'#9370db', mediumseagreen:'#3cb371', mediumslateblue:'#7b68ee', mediumspringgreen:'#00fa9a', mediumturquoise:'#48d1cc', mediumvioletred:'#c71585', midnightblue:'#191970', mintcream:'#f5fffa', mistyrose:'#ffe4e1', moccasin:'#ffe4b5', navajowhite:'#ffdead', navy:'#000080', oldlace:'#fdf5e6', olive:'#808000', olivedrab:'#6b8e23', orange:'#ffa500', orangered:'#ff4500', orchid:'#da70d6', palegoldenrod:'#eee8aa', palegreen:'#98fb98', paleturquoise:'#afeeee', palevioletred:'#db7093', papayawhip:'#ffefd5', peachpuff:'#ffdab9', peru:'#cd853f', pink:'#ffc0cb', plum:'#dda0dd', powderblue:'#b0e0e6', purple:'#800080', rebeccapurple:'#663399', red:'#ff0000', rosybrown:'#bc8f8f', royalblue:'#4169e1', saddlebrown:'#8b4513', salmon:'#fa8072', sandybrown:'#f4a460', seagreen:'#2e8b57', seashell:'#fff5ee', sienna:'#a0522d', silver:'#c0c0c0', skyblue:'#87ceeb', slateblue:'#6a5acd', slategray:'#708090', slategrey:'#708090', snow:'#fffafa', springgreen:'#00ff7f', steelblue:'#4682b4', tan:'#d2b48c', teal:'#008080', thistle:'#d8bfd8', tomato:'#ff6347', turquoise:'#40e0d0', violet:'#ee82ee', wheat:'#f5deb3', white:'#ffffff', whitesmoke:'#f5f5f5', yellow:'#ffff00', yellowgreen:'#9acd32' };
-//
-//More golfing, just because.. Simple hashing of the names - see nameToRgb()
-const colorNames = {cb:'0f8ff',tqw:'aebd7',q:'-ffff',qmrn:'7fffd4',zr:'0ffff',bg:'5f5dc',bsq:'e4c4',bck:'---',nch:'ebcd',b:'--ff',bvt:'8a2be2',brwn:'a52a2a',brw:'deb887',ctb:'5f9ea0',hrt:'7fff-',chcT:'d2691e',cr:'7f50',rnw:'6495ed',crns:'8dc',crms:'dc143c',cn:'-ffff',Db:'--8b',Dcn:'-8b8b',Dgnr:'b8860b',Dgr:'a9a9a9',Dgrn:'-64-',Dkhk:'bdb76b',Dmgn:'8b-8b',Dvgr:'556b2f',Drng:'8c-',Drch:'9932cc',Dr:'8b--',Dsmn:'e9967a',Dsgr:'8fbc8f',DsTb:'483d8b',DsTg:'2f4f4f',Dtrq:'-ced1',Dvt:'94-d3',ppnk:'1493',pskb:'-bfff',mgr:'696969',grb:'1e90ff',rbrc:'b22222',rwht:'af0',stg:'228b22',chs:'-ff',gnsb:'dcdcdc',st:'8f8ff',g:'d7-',gnr:'daa520',gr:'808080',grn:'-8-0',grnw:'adff2f',hnw:'0fff0',htpn:'69b4',nnr:'cd5c5c',ng:'4b-82',vr:'0',khk:'0e68c',vnr:'e6e6fa',nrb:'0f5',wngr:'7cfc-',mnch:'acd',Lb:'add8e6',Lcr:'08080',Lcn:'e0ffff',Lgnr:'afad2',Lgr:'d3d3d3',Lgrn:'90ee90',Lpnk:'b6c1',Lsmn:'a07a',Lsgr:'20b2aa',Lskb:'87cefa',LsTg:'778899',Lstb:'b0c4de',Lw:'e0',m:'-ff-',mgrn:'32cd32',nn:'af0e6',mgnt:'-ff',mrn:'8--0',mqm:'66cdaa',mmb:'--cd',mmrc:'ba55d3',mmpr:'9370db',msg:'3cb371',mmsT:'7b68ee','':'-fa9a',mtr:'48d1cc',mmvt:'c71585',mnLb:'191970',ntc:'5fffa',mstr:'e4e1',mccs:'e4b5',vjw:'dead',nv:'--80',c:'df5e6',v:'808-0',vrb:'6b8e23',rng:'a5-',rngr:'45-',rch:'da70d6',pgnr:'eee8aa',pgrn:'98fb98',ptrq:'afeeee',pvtr:'db7093',ppwh:'efd5',pchp:'dab9',pr:'cd853f',pnk:'c0cb',pm:'dda0dd',pwrb:'b0e0e6',prp:'8-080',cc:'663399',r:'--',sbr:'bc8f8f',rb:'4169e1',sbrw:'8b4513',smn:'a8072',nbr:'4a460',sgrn:'2e8b57',ssh:'5ee',snn:'a0522d',svr:'c0c0c0',skb:'87ceeb',sTb:'6a5acd',sTgr:'708090',snw:'afa',n:'-ff7f',stb:'4682b4',tn:'d2b48c',t:'-8080',thst:'d8bfd8',tmT:'6347',trqs:'40e0d0',vt:'ee82ee',whT:'5deb3',wht:'',hts:'5f5f5',w:'-',wgrn:'9acd32'};
-
-
-function printNum(num, decs = 1) {
-    const str = (decs > 0) ? num.toFixed(decs).replace(/0+$/, '').replace(/\.$/, '')
-                           : num.toString();
-    return str || '0';
-}
-
-
-class Color {
-
-    constructor(r, g, b, a) {
-
-        const that = this;
-        function parseString(input) {
-
-            //HSL string. Examples:
-            //	hsl(120, 60%,  50%) or
-            //	hsla(240, 100%, 50%, .7)
-            if( input.startsWith('hsl') ) {
-                let [h, s, l, a] = input.match(/([\-\d\.e]+)/g).map(Number);
-                if(a === undefined) { a = 1; }
-
-                h /= 360;
-                s /= 100;
-                l /= 100;
-                that.hsla = [h, s, l, a];
-            }
-
-            //RGB string. Examples:
-            //	rgb(51, 170, 51)
-            //	rgba(51, 170, 51, .7)
-            else if( input.startsWith('rgb') ) {
-                let [r, g, b, a] = input.match(/([\-\d\.e]+)/g).map(Number);
-                if(a === undefined) { a = 1; }
-
-                that.rgba = [r, g, b, a];
-            }
-
-            //Hex string or color name:
-            else {
-                if( input.startsWith('#') ) {
-                    that.rgba = Color.hexToRgb(input);
-                }
-                else {
-                    that.rgba = Color.nameToRgb(input) || Color.hexToRgb(input);
-                }
-            }
-        }
-
-
-        if( r === undefined ) ;
-
-        //Single input - RGB(A) array
-        else if( Array.isArray(r) ) {
-            this.rgba = r;
-        }
-
-        //Single input - CSS string
-        else if( b === undefined ) {
-            const color = r && ('' + r);
-            if(color) {
-                parseString(color.toLowerCase());
-            }
-        }
-
-        else {
-            this.rgba = [r, g, b, (a === undefined) ? 1 : a];
-        }
-    }
-
-
-    /* RGBA representation */
-
-    get rgba() {
-        if(this._rgba) { return this._rgba; }
-        if(!this._hsla) { throw new Error('No color is set'); }
-        
-        return (this._rgba = Color.hslToRgb(this._hsla));
-    }
-    set rgba(rgb) {
-        if(rgb.length === 3) { rgb[3] = 1; }
-        
-        this._rgba = rgb;
-        this._hsla = null;
-    }
-
-    printRGB(alpha) {
-        const rgb = alpha ? this.rgba : this.rgba.slice(0, 3),
-              vals = rgb.map((x, i) => printNum(x, (i === 3) ? 3 : 0));
-
-        return alpha ? `rgba(${ vals })` : `rgb(${ vals })`;
-    }
-    get rgbString()  { return this.printRGB(); }
-    get rgbaString() { return this.printRGB(true); }
-
-
-    /* HSLA representation */
-
-    get hsla() {
-        if(this._hsla) { return this._hsla; }
-        if(!this._rgba) { throw new Error('No color is set'); }
-        
-        return (this._hsla = Color.rgbToHsl(this._rgba));
-    }
-    set hsla(hsl) {
-        if(hsl.length === 3) { hsl[3] = 1; }
-        
-        this._hsla = hsl;
-        this._rgba = null;
-    }
-
-    printHSL(alpha) {
-        const mults = [360, 100, 100, 1],
-              suff =  ['', '%', '%', ''];
-
-        const hsl = alpha ? this.hsla : this.hsla.slice(0, 3),
-              //in printNum(), use enough decimals to represent all RGB colors:
-              //https://gist.github.com/mjackson/5311256#gistcomment-2336011
-              vals = hsl.map((x, i) => printNum(x * mults[i], (i === 3) ? 3 : 1) + suff[i]);
-        
-        return alpha ? `hsla(${ vals })` : `hsl(${ vals })`;
-    }
-    get hslString()  { return this.printHSL(); }
-    get hslaString() { return this.printHSL(true); }
-
-
-    /* HEX representation */
-
-    get hex() {
-        const rgb = this.rgba,
-              hex = rgb.map((x, i) => (i < 3) ? x.toString(16)
-                                              : Math.round(x * 255).toString(16));
-
-        return '#' + hex.map(x => x.padStart(2, '0')).join('');
-    }
-    set hex(hex) {
-        this.rgba = Color.hexToRgb(hex);
-    }
-
-    printHex(alpha) {
-        const hex = this.hex;
-        return alpha ? hex : hex.substring(0, 7);
-    }
-
-
-    /* Conversion utils */
-
-
-    /**
-     * Splits a HEX string into its RGB(A) components
-     */
-    static hexToRgb(input) {
-        //Normalize all hex codes (3/4/6/8 digits) to 8 digits RGBA
-        const hex = (input.startsWith('#') ? input.slice(1) : input)
-            .replace(/^(\w{3})$/,          '$1F')                   //987      -> 987F
-            .replace(/^(\w)(\w)(\w)(\w)$/, '$1$1$2$2$3$3$4$4')      //9876     -> 99887766
-            .replace(/^(\w{6})$/,          '$1FF');                 //987654   -> 987654FF
-
-        if(!hex.match(/^([0-9a-fA-F]{8})$/)) { throw new Error('Unknown hex color; ' + input); }
-
-        const rgba = hex
-            .match(/^(\w\w)(\w\w)(\w\w)(\w\w)$/).slice(1)  //98765432 -> 98 76 54 32
-            .map(x => parseInt(x, 16));                    //Hex to decimal
-
-        rgba[3] = rgba[3]/255;
-        return rgba;
-    }
-
-
-    /**
-     * Gets the RGB value from a CSS color name
-     */
-    static nameToRgb(input) {
-        /* See comments on colorNames
-
-        if(!colorNamesDeser) {
-            colorNamesDeser = {};
-            colorNames.match(/.{7}/g).forEach(x =>
-                colorNamesDeser[x.slice(0, 3)] = atob(x.slice(-4)).split('').map(b => b.charCodeAt(0))
-            );
-        }
-        const hash = [].reduce.call(input.replace('ey', 'ay'), (h, c) => (h << 2) + c.charCodeAt(0), 0)
-                                .toString(36).slice(-3);
-
-        return colorNamesDeser[hash];
-        */
-
-        //const hex = colorNames[input];
-        //if(hex) {
-        //    return Color.hexToRgb(hex);
-        //}
-
-        const hash = input.toLowerCase()
-                          .replace('at', 'T')
-                          .replace(/[aeiouyldf]/g, '')
-                          .replace('ght', 'L')
-                          .replace('rk', 'D')
-                          .slice(-5, 4),
-              hex = colorNames[hash];
-        return (hex === undefined) ? hex
-                                   : Color.hexToRgb(hex.replace(/\-/g, '00').padStart(6, 'f'));
-    }
-
-
-    /**
-     * https://gist.github.com/mjackson/5311256
-     * 
-     * Converts an RGB color value to HSL. Conversion formula
-     * adapted from http://en.wikipedia.org/wiki/HSL_color_space.
-     * Assumes r, g, and b are contained in the set [0, 255] and
-     * returns h, s, and l in the set [0, 1].
-     */
-    static rgbToHsl([r, g, b, a]) {
-
-        r /= 255;
-        g /= 255;
-        b /= 255;
-
-        const max = Math.max(r, g, b),
-              min = Math.min(r, g, b);
-        let h,
-            s,
-            l = (max + min) / 2;
-
-        if(max === min){
-            h = s = 0; // achromatic
-        }
-        else {
-            const d = max - min;
-            s = (l > 0.5) ? d / (2 - max - min)
-                          : d / (max + min);
-            switch(max) {
-                case r: h = (g - b) / d + (g < b ? 6 : 0); break;
-                case g: h = (b - r) / d + 2; break;
-                case b: h = (r - g) / d + 4; break;
-            }
-            
-            h /= 6;
-        }
-        
-        return [h, s, l, a];
-    }
-
-
-    /**
-     * https://gist.github.com/mjackson/5311256
-     * 
-     * Converts an HSL color value to RGB. Conversion formula
-     * adapted from http://en.wikipedia.org/wiki/HSL_color_space.
-     * Assumes h, s, and l are contained in the set [0, 1] and
-     * returns r, g, and b in the set [0, 255].
-     */
-    static hslToRgb([h, s, l, a]) {
-
-        let r, g, b;
-        
-        if (s === 0) {
-            r = g = b = l; // achromatic
-        }
-        else {
-            const hue2rgb = function(p, q, t) {
-                if (t < 0) t += 1;
-                if (t > 1) t -= 1;
-                if (t < 1/6) return p + (q - p) * 6 * t;
-                if (t < 1/2) return q;
-                if (t < 2/3) return p + (q - p) * (2/3 - t) * 6;
-                return p;
-            };
-
-            const q = (l < 0.5) ? l * (1 + s)
-                                : l + s - (l * s),
-                  p = (2 * l) - q;
-
-            r = hue2rgb(p, q, h + 1/3);
-            g = hue2rgb(p, q, h);
-            b = hue2rgb(p, q, h - 1/3);
-        }
-        
-        const rgba = [r * 255, g * 255, b * 255].map(Math.round);
-        rgba[3] = a;
-        
-        return rgba;
-    }
-
-}
-
-class EventBucket {
-    constructor() {
-        this._events = [];
-    }
-
-    add(target, type, handler) {
-        target.addEventListener(type, handler, false);
-        this._events.push({
-            target,
-            type,
-            handler,
-        });
-    }
-    
-    remove(target, type, handler) {
-        this._events = this._events.filter(e => {
-            let isMatch = true;
-            if(target  && (target  !== e.target))  { isMatch = false; }
-            if(type    && (type    !== e.type))    { isMatch = false; }
-            if(handler && (handler !== e.handler)) { isMatch = false; }
-
-            if(isMatch) {
-                EventBucket._doRemove(e.target, e.type, e.handler);
-            }
-            return !isMatch;
-        });
-    }
-    static _doRemove(target, type, handler) {
-        target.removeEventListener(type, handler, false);
-    }
-    
-    destroy() {
-        this._events.forEach(e => EventBucket._doRemove(e.target, e.type, e.handler));
-        this._events = [];
-    }
-}
-
-function parseHTML(htmlString) {
-    //https://stackoverflow.com/questions/494143/creating-a-new-dom-element-from-an-html-string-using-built-in-dom-methods-or-pro
-    const div = document.createElement('div');
-    div.innerHTML = htmlString;
-    return div.firstElementChild;
-}
-
-function dragTrack(eventBucket, area, callback) {
-    var dragging = false;
-
-    function clamp(val, min, max) {
-        return Math.max(min, Math.min(val, max));
-    }
-
-    function onMove(e, info, starting) {
-        if (starting) { dragging = true; }
-        if (!dragging) { return; }
-
-        e.preventDefault();
-
-        var bounds = area.getBoundingClientRect(),
-            w = bounds.width,
-            h = bounds.height,
-            x = info.clientX,
-            y = info.clientY;
-
-        var relX = clamp(x - bounds.left, 0, w),
-            relY = clamp(y - bounds.top, 0, h);
-
-        callback(relX / w, relY / h);
-    }
-
-    function onMouse(e, starting) {
-        var button = (e.buttons === undefined) ? e.which : e.buttons;
-        if (button === 1) {
-            onMove(e, e, starting);
-        }
-        //`mouseup` outside of window:
-        else {
-            dragging = false;
-        }
-    }
-
-    function onTouch(e, starting) {
-        if (e.touches.length === 1) {
-            onMove(e, e.touches[0], starting);
-        }
-        //Don't interfere with pinch-to-zoom etc:
-        else {
-            dragging = false;
-        }
-    }
-
-    //Notice how we must listen on the whole window to really keep track of mouse movements,
-    //while touch movements "stick" to the original target from `touchstart` (which works well for our purposes here):
-    //
-    //  https://stackoverflow.com/a/51750458/1869660
-    //  "Mouse moves = *hover* like behavior. Touch moves = *drags* like behavior"
-    //
-    eventBucket.add(area,   'mousedown',   function(e) { onMouse(e, true); });
-    eventBucket.add(area,   'touchstart',  function(e) { onTouch(e, true); });
-    eventBucket.add(window, 'mousemove',   onMouse);
-    eventBucket.add(area,   'touchmove',   onTouch);
-    eventBucket.add(window, 'mouseup',     function(e) { dragging = false; });
-    eventBucket.add(area,   'touchend',    function(e) { dragging = false; });
-    eventBucket.add(area,   'touchcancel', function(e) { dragging = false; });
-}
-
-/*global HTMLElement*/
-
-
-const BG_TRANSP = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='2'%3E%3Cpath d='M1,0H0V1H2V2H1' fill='lightgrey'/%3E%3C/svg%3E")`;
-const HUES = 360;
-//We need to use keydown instead of keypress to handle Esc from the editor textbox:
-const EVENT_KEY = 'keydown', //'keypress'
-      EVENT_CLICK_OUTSIDE = 'mousedown',
-      EVENT_TAB_MOVE = 'focusin';
-
-
-function $$1(selector, context) {
-    return (context || document).querySelector(selector);
-}
-
-function stopEvent(e) {
-    //Stop an event from bubbling up to the parent:
-    e.preventDefault();
-    e.stopPropagation();
-}
-function onKey(bucket, target, keys, handler, stop) {
-    bucket.add(target, EVENT_KEY, function(e) {
-        if(keys.indexOf(e.key) >= 0) {
-            if(stop) { stopEvent(e); }
-            handler(e);
-        }
-    });
-}
-
-
-/* Inlined Picker CSS */
-const _style = document.createElement('style');
-_style.textContent = `
-    .picker_wrapper.no_alpha .picker_alpha {display:none}
-    .picker_wrapper.no_editor .picker_editor{position:absolute;z-index:-1;opacity:0}
-    .picker_wrapper.no_cancel .picker_cancel{display:none}
-    .layout_default.picker_wrapper{display:-webkit-box;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-flow:row wrap;-webkit-box-pack:justify;justify-content:space-between;-webkit-box-align:stretch;align-items:stretch;font-size:10px;width:25em;padding:.5em}
-    .layout_default.picker_wrapper input,.layout_default.picker_wrapper button{font-size:1rem}
-    .layout_default.picker_wrapper>*{margin:.5em}
-    .layout_default.picker_wrapper::before{content:\'\';display:block;width:100%;height:0;-webkit-box-ordinal-group:2;order:1}
-    .layout_default .picker_slider,.layout_default .picker_selector{padding:1em}
-    .layout_default .picker_hue{width:100%}
-    .layout_default .picker_sl{-webkit-box-flex:1;flex:1 1 auto}
-    .layout_default .picker_sl::before{content:\'\';display:block;padding-bottom:100%}
-    .layout_default .picker_palette{order:1;width:100%;display:flex;align-items:stretch;}
-    .layout_default .picker_palette div {height: 20px; min-width:1px; flex-grow: 1;}
-    .layout_default .picker_editor{-webkit-box-ordinal-group:2;order:1;width:6.5rem}
-    .layout_default .picker_editor input{width:100%;height:100%}
-    .layout_default .picker_sample{-webkit-box-ordinal-group:2;order:1;-webkit-box-flex:1;flex:1 1 auto}
-    .layout_default .picker_done,.layout_default .picker_cancel{-webkit-box-ordinal-group:2;order:1}
-    .picker_wrapper{box-sizing:border-box;background:#f2f2f2;box-shadow:0 0 0 1px silver;cursor:default;font-family:sans-serif;color:#444;pointer-events:auto}
-    .picker_wrapper:focus{outline:none}
-    .picker_wrapper button,.picker_wrapper input{box-sizing:border-box;border:none;box-shadow:0 0 0 1px silver;outline:none}
-    .picker_wrapper button:focus,.picker_wrapper button:active,.picker_wrapper input:focus,.picker_wrapper input:active{box-shadow:0 0 2px 1px dodgerblue}
-    .picker_wrapper button{padding:.4em .6em;cursor:pointer;background-color:whitesmoke;background-image:-webkit-gradient(linear, left bottom, left top, from(gainsboro), to(transparent));background-image:-webkit-linear-gradient(bottom, gainsboro, transparent);background-image:linear-gradient(0deg, gainsboro, transparent)}
-    .picker_wrapper button:active{background-image:-webkit-gradient(linear, left bottom, left top, from(transparent), to(gainsboro));background-image:-webkit-linear-gradient(bottom, transparent, gainsboro);background-image:linear-gradient(0deg, transparent, gainsboro)}
-    .picker_wrapper button:hover{background-color:white}
-    .picker_selector{position:absolute;z-index:1;display:block;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);border:2px solid white;border-radius:100%;box-shadow:0 0 3px 1px #67b9ff;background:currentColor;cursor:pointer}
-    .picker_slider .picker_selector{border-radius:2px}
-    .picker_hue{position:relative;background-image:-webkit-gradient(linear, left top, right top, from(red), color-stop(yellow), color-stop(lime), color-stop(cyan), color-stop(blue), color-stop(magenta), to(red));background-image:-webkit-linear-gradient(left, red, yellow, lime, cyan, blue, magenta, red);background-image:linear-gradient(90deg, red, yellow, lime, cyan, blue, magenta, red);box-shadow:0 0 0 1px silver}
-    .picker_sl{position:relative;box-shadow:0 0 0 1px silver;background-image:-webkit-gradient(linear, left top, left bottom, from(white), color-stop(50%, rgba(255,255,255,0))),-webkit-gradient(linear, left bottom, left top, from(black), color-stop(50%, rgba(0,0,0,0))),-webkit-gradient(linear, left top, right top, from(gray), to(rgba(128,128,128,0)));background-image:-webkit-linear-gradient(top, white, rgba(255,255,255,0) 50%),-webkit-linear-gradient(bottom, black, rgba(0,0,0,0) 50%),-webkit-linear-gradient(left, gray, rgba(128,128,128,0));background-image:linear-gradient(180deg, white, rgba(255,255,255,0) 50%),linear-gradient(0deg, black, rgba(0,0,0,0) 50%),linear-gradient(90deg, gray, rgba(128,128,128,0))}
-    .picker_alpha,.picker_sample,.picker_palette{position:relative;background:url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'2\' height=\'2\'%3E%3Cpath d=\'M1,0H0V1H2V2H1\' fill=\'lightgrey\'/%3E%3C/svg%3E") left top/contain white;box-shadow:0 0 0 1px silver}
-    .picker_alpha .picker_selector,.picker_sample .picker_selector{background:none}
-    .picker_editor input{font-family:monospace;padding:.2em .4em}
-    .picker_sample::before{content:\'\';position:absolute;display:block;width:100%;height:100%;background:currentColor}
-    .picker_arrow{position:absolute;z-index:-1}
-    .picker_wrapper.popup{position:absolute;z-index:2;margin:1.5em}
-    .picker_wrapper.popup,.picker_wrapper.popup .picker_arrow::before,.picker_wrapper.popup .picker_arrow::after{background:#f2f2f2;box-shadow:0 0 10px 1px rgba(0,0,0,0.4)}
-    .picker_wrapper.popup .picker_arrow{width:3em;height:3em;margin:0}
-    .picker_wrapper.popup .picker_arrow::before,.picker_wrapper.popup .picker_arrow::after{content:"";display:block;position:absolute;top:0;left:0;z-index:-99}
-    .picker_wrapper.popup .picker_arrow::before{width:100%;height:100%;-webkit-transform:skew(45deg);transform:skew(45deg);-webkit-transform-origin:0 100%;transform-origin:0 100%}
-    .picker_wrapper.popup .picker_arrow::after{width:150%;height:150%;box-shadow:none}
-    .popup.popup_top{bottom:100%;left:0}
-    .popup.popup_top .picker_arrow{bottom:0;left:0;-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
-    .popup.popup_bottom{top:100%;left:0}
-    .popup.popup_bottom .picker_arrow{top:0;left:0;-webkit-transform:rotate(90deg) scale(1, -1);transform:rotate(90deg) scale(1, -1)}
-    .popup.popup_left{top:0;right:100%}
-    .popup.popup_left .picker_arrow{top:0;right:0;-webkit-transform:scale(-1, 1);transform:scale(-1, 1)}
-    .popup.popup_right{top:0;left:100%}
-    .popup.popup_right .picker_arrow{top:0;left:0}
-`;
-document.documentElement.firstElementChild //<head>, or <body> if there is no <head>
-    .appendChild(_style);
-
-
-class Picker {
-
-    //https://stackoverflow.com/questions/24214962/whats-the-proper-way-to-document-callbacks-with-jsdoc
-    /**
-     * A callback that gets the picker's current color value.
-     * 
-     * @callback Picker~colorCallback
-     * @param {Object} color
-     * @param {number[]} color.rgba       - RGBA color components.
-     * @param {number[]} color.hsla       - HSLA color components (all values between 0 and 1, inclusive).
-     * @param {string}   color.rgbString  - RGB CSS value (e.g. `rgb(255,215,0)`).
-     * @param {string}   color.rgbaString - RGBA CSS value (e.g. `rgba(255,215,0, .5)`).
-     * @param {string}   color.hslString  - HSL CSS value (e.g. `hsl(50.6,100%,50%)`).
-     * @param {string}   color.hslaString - HSLA CSS value (e.g. `hsla(50.6,100%,50%, .5)`).
-     * @param {string}   color.hex        - 8 digit #RRGGBBAA (not supported in all browsers).
-     */
-
-    /**
-     * Create a color picker.
-     * 
-     * @example
-     * var picker = new Picker(myParentElement);
-     * picker.onDone = function(color) {
-     *     myParentElement.style.backgroundColor = color.rgbaString;
-     * };
-     * 
-     * @example
-     * var picker = new Picker({
-     *     parent: myParentElement,
-     *     color: 'gold',
-     *     onChange: function(color) {
-     *                   myParentElement.style.backgroundColor = color.rgbaString;
-     *               },
-     * });
-     * 
-     * @param {Object} options - @see {@linkcode Picker#setOptions|setOptions()}
-     */
-    constructor(options) {
-
-        //Default settings
-        this.settings = {
-            //Allow creating a popup without putting it on screen yet.
-            //  parent: document.body,
-            popup: 'right',
-            layout: 'default',
-            alpha:  true,
-            editor: true,
-            editorFormat: 'hex',
-            cancelButton: false
-        };
-        this.palette = ['rgba(127,127,127,0)','#000','#fff','#f44336','#e91e63','#9c27b0', '#673ab7','#3f51b5','#3f51b5','#03a9f4','#00bcd4','#009688','#4caf50','#8bc34a','#cddc39','#ffeb3b','#ffc107','#ff9800','#ff5722','#795548','#9e9e9e','#607d8b'];
-        this.settings.template = `
-        <div class="picker_wrapper tabindex="-1">
-            <div class="picker_arrow"></div>
-            <div class="picker_hue picker_slider">
-                <div class="picker_selector"></div>
-            </div>
-            <div class="picker_sl">
-                <div class="picker_selector"></div>
-            </div>
-            <div class="picker_alpha picker_slider">
-                <div class="picker_selector"></div>
-            </div>
-            <div class="picker_palette">${this.palette.map(color=>`<div style="background-color:${color}"></div>`).join('')}</div>
-            <div class="picker_editor">
-                <input aria-label="Type a color name or hex value"/>
-            </div>
-            <div class="picker_sample"></div>
-            <div class="picker_cancel">
-            <button>Cancel</button>
-            </div>
-            <div class="picker_done">
-                <button>Ok</button>
-            </div>
-        </div>
-        `;
-        
-        this._events = new EventBucket();
-
-        /**
-         * Callback whenever the color changes.
-         * @member {Picker~colorCallback}
-         */
-        this.onChange = null;
-        /**
-         * Callback when the user clicks "Ok".
-         * @member {Picker~colorCallback}
-         */
-        this.onDone = null;
-        /**
-         * Callback when the popup opens.
-         * @member {Picker~colorCallback}
-         */
-        this.onOpen = null;
-        /**
-         * Callback when the popup closes.
-         * @member {Picker~colorCallback}
-         */
-        this.onClose = null;
-        
-        this.setOptions(options);
-    }
-
-
-    /**
-     * Set the picker options.
-     * 
-     * @param {Object}       options
-     * @param {HTMLElement}  options.parent           - Which element the picker should be attached to.
-     * @param {('top'|'bottom'|'left'|'right'|false)}
-     *                       [options.popup=right]    - If the picker is used as a popup, where to place it relative to the parent. `false` to add the picker as a normal child element of the parent.
-     * @param {string}       [options.template]       - Custom HTML string from which to build the picker. See /src/picker.pug for required elements and class names.
-     * @param {string}       [options.layout=default] - Suffix of a custom "layout_..." CSS class to handle the overall arrangement of the picker elements.
-     * @param {boolean}      [options.alpha=true]     - Whether to enable adjusting the alpha channel.
-     * @param {boolean}      [options.editor=true]    - Whether to show a text field for color value editing.
-     * @param {('hex'|'hsl'|'rgb')}
-     *                       [options.editorFormat=hex] - How to display the selected color in the text field (the text field still supports *input* in any format).
-     * @param {boolean}      [options.cancelButton=false] - Whether to have a "Cancel" button which closes the popup.
-     * @param {string}       [options.color]          - Initial color for the picker.
-     * @param {function}     [options.onChange]       - @see {@linkcode Picker#onChange|onChange}
-     * @param {function}     [options.onDone]         - @see {@linkcode Picker#onDone|onDone}
-     * @param {function}     [options.onOpen]         - @see {@linkcode Picker#onOpen|onOpen}
-     * @param {function}     [options.onClose]        - @see {@linkcode Picker#onClose|onClose}
-     */
-    setOptions(options) {
-        if(!options) { return; }
-        const settings = this.settings;
-
-        function transfer(source, target, skipKeys) {
-            for (const key in source) {
-                if(skipKeys && (skipKeys.indexOf(key) >= 0)) { continue; }
-
-                target[key] = source[key];
-            }
-        }
-
-        if(options instanceof HTMLElement) {
-            settings.parent = options;
-        }
-        else {
-            //const skipKeys = [];
-            //
-            //if(options.popup instanceof Object) {
-            //    transfer(options.popup, settings.popup);
-            //    skipKeys.push('popup');
-            //}
-            
-            /* //TODO: options.layout -> Object
-            {
-                mode: 'hsla',       //'hsla', 'hasl', 'hsl'. Deprecate options.alpha
-                verticalHue: false,
-                verticalAlpha: true,
-                alphaOnSL: false,
-                editor: true,       //Deprecate options.editor
-                css: undefined,     //Same as old options.layout. Default from mode
-                //.template as well?
-            }
-            //*/
-            
-            //New parent?
-            if(settings.parent && options.parent && (settings.parent !== options.parent)) {
-                this._events.remove(settings.parent); //.removeEventListener('click', this._openProxy, false);
-                this._popupInited = false;
-            }
-
-            transfer(options, settings/*, skipKeys*/);
-        
-            //Event callbacks. Hook these up before setColor() below,
-            //because we'll need to fire onChange() if there is a color in the options
-            if(options.onChange) { this.onChange = options.onChange; }
-            if(options.onDone)   { this.onDone   = options.onDone; }
-            if(options.onOpen)   { this.onOpen   = options.onOpen; }
-            if(options.onClose)  { this.onClose  = options.onClose; }
-        
-            //Note: Look for color in 'options', as a color value in 'settings' may be an old one we don't want to revert to.
-            const col = options.color || options.colour;
-            if(col) { this._setColor(col); }
-        }
-        
-        //Init popup behavior once we have all the parts we need:
-        const parent = settings.parent;
-        if(parent && settings.popup && !this._popupInited) {
-
-            //Keep openHandler() pluggable, but call it in the right context:
-            const openProxy = (e) => this.openHandler(e);
-
-            this._events.add(parent, 'click', openProxy);
-
-            //Keyboard navigation: Open on [Space] or [Enter] (but stop the event to avoid typing a " " in the editor textbox).
-            //No, don't stop the event, as that would disable normal input behavior (typing a " " or clicking the Ok button with [Enter]).
-            //Fix: setTimeout() in openHandler()..
-            //
-            //https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values#Whitespace_keys
-            onKey(this._events, parent, [' ', 'Spacebar', 'Enter'], openProxy/*, true*/);
-            
-            //This must wait until we have created our DOM..
-            //  addEvent(window, 'mousedown', (e) => this.closeHandler(e));
-            //  addEvent(this._domOkay, 'click', (e) => this.closeHandler(e));
-
-            this._popupInited = true;
-        }
-        else if(options.parent && !settings.popup) {
-            this.show();
-        }
-    }
-
-
-    /**
-     * Default behavior for opening the popup
-     */
-    openHandler(e) {
-        if(this.show()) {
-            //If the parent is an <a href="#"> element, avoid scrolling to the top:
-            e && e.preventDefault();
-            
-            //A trick to avoid re-opening the dialog if you click the parent element while the dialog is open:
-            this.settings.parent.style.pointerEvents = 'none';
-
-            //Recommended popup behavior with keyboard navigation from http://whatsock.com/tsg/Coding%20Arena/Popups/Popup%20(Internal%20Content)/demo.htm
-            //Wait a little before focusing the textbox, in case the dialog was just opened with [Space] (would overwrite the color value with a " "):
-            const toFocus = (e && (e.type === EVENT_KEY)) ? this._domEdit : this.domElement;
-            setTimeout(() => toFocus.focus(), 100);
-
-            if(this.onOpen) { this.onOpen(this.colour); }
-        }
-    }
-
-
-    /**
-     * Default behavior for closing the popup
-     */
-    closeHandler(e) {
-        const event = e && e.type;
-        let doHide = false;
-
-        //Close programmatically:
-        if(!e) {
-            doHide = true;
-        }
-        //Close by clicking/tabbing outside the popup:
-        else if((event === EVENT_CLICK_OUTSIDE) || (event === EVENT_TAB_MOVE)) {
-
-            //See comments in `_bindEvents()`.
-            //Undesirable behavior in Firefox though: When clicking (mousedown) the [Ok] button or the textbox,
-            //a `focusout` is raised on `picker_wrapper`, followed by a `focusin` on the parent (if it is focusable).
-            //To keep that new event from closing the popup, we add 100ms to our time control:
-            const knownTime = (this.__containedEvent || 0) + 100;
-            if(e.timeStamp > knownTime) {
-                doHide = true;
-            }
-        }
-        //Close by mouse/touch or key events:
-        else {
-            //Don't bubble [Ok] clicks or [Enter] keys up to the parent, because that's the trigger to re-open the popup.
-            stopEvent(e);
-
-            doHide = true;
-        }
-
-        if(doHide && this.hide()) {
-            this.settings.parent.style.pointerEvents = '';
-
-            //Recommended popup behavior from http://whatsock.com/tsg/Coding%20Arena/Popups/Popup%20(Internal%20Content)/demo.htm
-            //However, we don't re-focus the parent if the user closes the popup by clicking somewhere else on the screen,
-            //because they may have scrolled to a different part of the page by then, and focusing would then inadvertently scroll the parent back into view:
-            if(event !== EVENT_CLICK_OUTSIDE) {
-                this.settings.parent.focus();
-            }
-
-            if(this.onClose) { this.onClose(this.colour); }
-        }
-    }
-
-
-    /**
-     * Move the popup to a different parent, optionally opening it at the same time.
-     *
-     * @param {Object}  options - @see {@linkcode Picker#setOptions|setOptions()} (Usually a new `.parent` and `.color`).
-     * @param {boolean} open    - Whether to open the popup immediately.
-     */
-    movePopup(options, open) {
-        //Cleanup if the popup is currently open (at least revert the current parent's .pointerEvents);
-        this.closeHandler();
-        
-        this.setOptions(options);
-        if(open) {
-            this.openHandler();
-        }
-    }
-
-
-    /**
-     * Set/initialize the picker's color.
-     * 
-     * @param {string}  color  - Color name, RGBA/HSLA/HEX string, or RGBA array.
-     * @param {boolean} silent - If true, won't trigger onChange.
-     */
-    setColor(color, silent) {
-        this._setColor(color, { silent: silent });
-    }
-    _setColor(color, flags) {
-        if(typeof color === 'string') { color = color.trim(); }
-        if (!color) { return; }
-
-        flags = flags || {};
-        let c;
-        try {
-            //Will throw on unknown colors:
-            c = new Color(color);
-        }
-        catch (ex) {
-            if(flags.failSilently) { return; }
-            throw ex;
-        }
-
-        if(!this.settings.alpha) {
-            const hsla = c.hsla;
-            hsla[3] = 1;
-            c.hsla = hsla;
-        }
-        this.colour = this.color = c;
-        this._setHSLA(null, null, null, null, flags);
-    }
-    /**
-     * @see {@linkcode Picker#setColor|setColor()}
-     */
-    setColour(colour, silent) {
-        this.setColor(colour, silent);
-    }
-
-
-    /**
-     * Show/open the picker.
-     */
-    show() {
-        const parent = this.settings.parent;
-        if(!parent) { return false; }
-        
-        //Unhide html if it exists
-        if(this.domElement) {
-            const toggled = this._toggleDOM(true);
-
-            //Things could have changed through setOptions():
-            this._setPosition();
-
-            return toggled;
-        }
-
-        const html = this.settings.template || `## PLACEHOLDER-HTML ##`;
-        const wrapper = parseHTML(html);
-        
-        this.domElement = wrapper;
-        this._domH      = $$1('.picker_hue', wrapper);
-        this._domSL     = $$1('.picker_sl', wrapper);
-        this._domA      = $$1('.picker_alpha', wrapper);
-        this._domEdit   = $$1('.picker_editor input', wrapper);
-        this._domSample = $$1('.picker_sample', wrapper);
-        this._domOkay   = $$1('.picker_done button', wrapper);
-        this._domCancel = $$1('.picker_cancel button', wrapper);
-
-        wrapper.classList.add('layout_' + this.settings.layout);
-        if(!this.settings.alpha) { wrapper.classList.add('no_alpha'); }
-        if(!this.settings.editor) { wrapper.classList.add('no_editor'); }
-        if(!this.settings.cancelButton) { wrapper.classList.add('no_cancel'); }
-        this._ifPopup(() => wrapper.classList.add('popup'));
-        
-        this._setPosition();
-
-
-        if(this.colour) {
-            this._updateUI();
-        }
-        else {
-            this._setColor('#0cf');
-        }
-        this._bindEvents();
-        
-        return true;
-    }
-
-
-    /**
-     * Hide the picker.
-     */
-    hide() {
-        return this._toggleDOM(false);
-    }
-    
-    
-    /**
-     * Release all resources used by this picker instance.
-     */
-    destroy() {
-        this._events.destroy();
-        if(this.domElement) {
-            this.settings.parent.removeChild(this.domElement);
-        }
-    }
-
-
-    /*
-     * Handle user input.
-     * 
-     * @private
-     */
-    _bindEvents() {
-        const that = this,
-              dom = this.domElement,
-              events = this._events;
-        
-        function addEvent(target, type, handler) {
-            events.add(target, type, handler);
-        }
-        
-        
-        //Prevent clicks while dragging from bubbling up to the parent:
-        addEvent(dom, 'click', e => e.preventDefault());
-
-
-        /* Draggable color selection */
-
-        //Select hue
-        dragTrack(events, this._domH,  (x, y) => that._setHSLA(x));
-
-        //Select saturation/lightness
-        dragTrack(events, this._domSL, (x, y) => that._setHSLA(null, x, 1 - y));
-
-        //Select alpha
-        if(this.settings.alpha) {
-            dragTrack(events, this._domA,  (x, y) => that._setHSLA(null, null, null, 1 - y));
-        }
-        
-        
-        /* Direct color value editing */
-
-        //Always init the editor, for accessibility and screen readers (we'll hide it with CSS if `!settings.editor`)
-        const editInput = this._domEdit;
-        /*if(this.settings.editor)*/ {
-            addEvent(editInput, 'input', function(e) {
-                that._setColor(this.value, { fromEditor: true, failSilently: true });
-            });
-            //Select all text on focus:
-            addEvent(editInput, 'focus', function(e) {
-                const input = this;
-                //If no current selection:
-                if(input.selectionStart === input.selectionEnd) {
-                    input.select();
-                }
-            });
-        }
-
-
-        /* Close the dialog */
-
-        //onClose:
-        this._ifPopup(() => {
-            //Keep closeHandler() pluggable, but call it in the right context:
-            const popupCloseProxy = (e) => this.closeHandler(e);
-
-            addEvent(window, EVENT_CLICK_OUTSIDE, popupCloseProxy);
-            addEvent(window, EVENT_TAB_MOVE,      popupCloseProxy);
-            onKey(events, dom, ['Esc', 'Escape'], popupCloseProxy);
-
-            //Above, we added events on `window` to close the popup if the user clicks outside or tabs away from the picker.
-            //Now, we must make sure that clicks and tabs within the picker don't cause the popup to close.
-            //Things we have tried:
-            //  * Check `e.target` in `closeHandler()` and see if it's a child element of the picker.
-            //      - That won't work if used in a shadow DOM, where the original `target` isn't available once the event reaches `window` (issue #15).
-            //  * Stop the events from propagating past the popup element (using `e.stopPropagation()`).
-            //      - ..but stopping mouse events interferes with text selection in the editor.
-            //
-            //So, next attempt: Note the `timeStamp` of the contained event, and check it in `closeHandler()`.
-            //That should be a unique identifier of the event, and the time seems to be preserved when retargeting shadow DOM events:
-            const timeKeeper = (e) => {
-                this.__containedEvent = e.timeStamp;
-            };
-            addEvent(dom, EVENT_CLICK_OUTSIDE, timeKeeper);
-            //Note: Now that we have added the 'focusin' event, this trick requires the picker wrapper to be focusable (via `tabindex` - see /src/picker.pug),
-            //or else the popup loses focus if you click anywhere on the picker's background.
-            addEvent(dom, EVENT_TAB_MOVE,      timeKeeper);
-            
-            //Cancel button:
-            addEvent(this._domCancel, 'click', popupCloseProxy);
-        });
-
-        //onDone:
-        const onDoneProxy = (e) => {
-            this._ifPopup(() => this.closeHandler(e));
-            if(this.onDone) { this.onDone(this.colour); }
-        };
-        addEvent(this._domOkay, 'click',   onDoneProxy);
-        onKey(events, dom,      ['Enter'], onDoneProxy);
-    }
-
-
-    /*
-     * Position the picker on screen.
-     * 
-     * @private
-     */
-    _setPosition() {
-        const parent = this.settings.parent,
-              elm = this.domElement;
-
-        if(parent !== elm.parentNode) { parent.appendChild(elm); }
-
-        this._ifPopup((popup) => {
-
-            //Allow for absolute positioning of the picker popup:
-            if(getComputedStyle(parent).position === 'static') {
-                parent.style.position = 'relative';
-            }
-
-            const cssClass = (popup === true) ? 'popup_right' : 'popup_' + popup;
-
-            ['popup_top', 'popup_bottom', 'popup_left', 'popup_right'].forEach(c => {
-                //Because IE doesn't support .classList.toggle()'s second argument...
-                if(c === cssClass) {
-                    elm.classList.add(c);
-                }
-                else {
-                    elm.classList.remove(c);
-                }
-            });
-
-            //Allow for custom placement via CSS:
-            elm.classList.add(cssClass);
-        });
-    }
-
-
-    /*
-     * "Hub" for all color changes
-     * 
-     * @private
-     */
-    _setHSLA(h, s, l, a,  flags) {
-        flags = flags || {};
-
-        const col = this.colour,
-              hsla = col.hsla;
-
-        [h, s, l, a].forEach((x, i) => {
-            if(x || (x === 0)) { hsla[i] = x; }
-        });
-        col.hsla = hsla;
-
-        this._updateUI(flags);
-
-        if(this.onChange && !flags.silent) { this.onChange(col); }
-    }
-
-    _updateUI(flags) {
-        if(!this.domElement) { return; }
-        flags = flags || {};
-
-        const col = this.colour,
-              hsl = col.hsla,
-              cssHue  = `hsl(${hsl[0] * HUES}, 100%, 50%)`,
-              cssHSL  = col.hslString,
-              cssHSLA = col.hslaString;
-
-        const uiH  = this._domH,
-              uiSL = this._domSL,
-              uiA  = this._domA,
-              thumbH  = $$1('.picker_selector', uiH),
-              thumbSL = $$1('.picker_selector', uiSL),
-              thumbA  = $$1('.picker_selector', uiA);
-        
-        function posX(parent, child, relX) {
-            child.style.left = (relX * 100) + '%'; //(parent.clientWidth * relX) + 'px';
-        }
-        function posY(parent, child, relY) {
-            child.style.top  = (relY * 100) + '%'; //(parent.clientHeight * relY) + 'px';
-        }
-
-
-        /* Hue */
-        
-        posX(uiH, thumbH, hsl[0]);
-        
-        //Use the fully saturated hue on the SL panel and Hue thumb:
-        this._domSL.style.backgroundColor = this._domH.style.color = cssHue;
-
-
-        /* S/L */
-        
-        posX(uiSL, thumbSL, hsl[1]);
-        posY(uiSL, thumbSL, 1 - hsl[2]);
-        
-        //Use the opaque HSL on the SL thumb:
-        uiSL.style.color = cssHSL;
-
-
-        /* Alpha */
-        
-        posY(uiA,  thumbA,  1 - hsl[3]);
-
-        const opaque = cssHSL,
-              transp = opaque.replace('hsl', 'hsla').replace(')', ', 0)'),
-              bg = `linear-gradient(${[opaque, transp]})`;
-
-        //Let the Alpha slider fade from opaque to transparent:
-        this._domA.style.backgroundImage = bg + ', ' + BG_TRANSP;
-
-
-        /* Editable value */
-        
-        //Don't update the editor if the user is typing.
-        //That creates too much noise because of our auto-expansion of 3/4/6 -> 8 digit hex codes.
-        if(!flags.fromEditor) {
-            const format = this.settings.editorFormat,
-                  alpha = this.settings.alpha;
-
-            let value;
-            switch (format) {
-                case 'rgb': value = col.printRGB(alpha); break;
-                case 'hsl': value = col.printHSL(alpha); break;
-                default:    value = col.printHex(alpha);
-            }
-            this._domEdit.value = value;
-        }
-
-
-        /* Sample swatch */
-        
-        this._domSample.style.color = cssHSLA;
-    }
-    
-    
-    _ifPopup(actionIf, actionElse) {
-        if(this.settings.parent && this.settings.popup) {
-            actionIf && actionIf(this.settings.popup);
-        }
-        else {
-            actionElse && actionElse();
-        }
-    }
-
-
-    _toggleDOM(toVisible) {
-        const dom = this.domElement;
-        if(!dom) { return false; }
-
-        const displayStyle = toVisible ? '' : 'none',
-              toggle = (dom.style.display !== displayStyle);
-        
-        if(toggle) { dom.style.display = displayStyle; }
-        return toggle;
-    }
-
-
-/*
-    //Feature: settings to flip hue & alpha 90deg (i.e. vertical or horizontal mode)
-    
-    
-        function createDragConfig(container, callbackRelative) {
-const flipped = true;
-
-            function capRel(val) {
-                return (val < 0) ? 0
-                                 : (val > 1) ? 1 : val;
-            }
-
-            //Convert the px coordinates to relative coordinates (0-1) before invoking the callback:
-            function relayDrag(_, pos) {
-                const w = container.clientWidth,
-                      h = container.clientHeight;
-                      
-                const relX = pos[0]/(flipped ? h : w),
-                      relY = pos[1]/(flipped ? w : h);
-                      
-                callbackRelative(capRel(relX), capRel(relY));
-            }
-
-            const config = {
-                container:     container,
-                //dragOutside:   false,
-                callback:      relayDrag,
-                //Respond at once (mousedown), don't wait for click or drag:
-                callbackDragStart: relayDrag,
-            };
-            return config;
-        }
-*/
-
-    /**
-     * The inlined `<style>` element for picker CSS.
-     */
-    static get StyleElement() {
-        return _style;
-    }
-}
+//import Picker from '../../colorpicker/picker.js';
 
 /**
 * @polymer
@@ -17308,6 +16094,7 @@ class MapLayerInfo extends LitElement {
             .hide {
                 display: none;
             }
+            /*
             .picker_wrapper.no_alpha .picker_alpha {display:none}
     .picker_wrapper.no_editor .picker_editor{position:absolute;z-index:-1;opacity:0}
     .picker_wrapper.no_cancel .picker_cancel{display:none}
@@ -17355,6 +16142,7 @@ class MapLayerInfo extends LitElement {
     .popup.popup_left .picker_arrow{top:0;right:0;-webkit-transform:scale(-1, 1);transform:scale(-1, 1)}
     .popup.popup_right{top:0;left:100%}
     .popup.popup_right .picker_arrow{top:0;left:0}
+    */
         `
     }
     constructor() {
@@ -17442,8 +16230,8 @@ class MapLayerInfo extends LitElement {
     }
     _buttonClick(event) {
         let button = this.shadowRoot.querySelector('#licontainer');
-        let picker = new Picker({parent:document.body, popup:'top'});
-        picker.openHandler();
+        //let picker = new Picker({parent:document.body, popup:'top'});
+        //picker.openHandler();
     }
     _togglelegendclipped() {
         this.legendclipped = !this.legendclipped;
@@ -18113,11 +16901,14 @@ class ToolBar extends (LitElement) {
     constructor(){
         super();
         this.currentTool = '';
+        this.layerlist = [];
+        this.thematiclayers = [];
+        this.backgroundLayers = [];
         this.toolList = [
             {name:"toolbar", visible: true, position: "opened", order: 0, info:""},
             {name:"search", visible: true, position: "", order: 100, info:"Naam, plaats of adres zoeken", icon: searchIcon$1},
             {name:"datacatalog", visible: true, position: "", order: 101, info:"Kaartlagen", icon:layermanagerIcon},
-            {name:"measure", visible: true, position: "", order: 102, info:"Afstand en oppervlakte meten", icon: measureIcon},
+            //{name:"measure", visible: true, position: "", order: 102, info:"Afstand en oppervlakte meten", icon: measureIcon},
             //{name:"info", visible: true, position: "", order: 103, info: "Informatie uit de kaart halen", icon: infoIcon},
             //{name:"maplanguage", visible: true, position: "", order: 104, info: "Kaarttaal", icon: languageIcon},
             //{name:"pitch", visible: true, position: "", order: 105, info: "Kaarthoek", icon: threeDIcon},
@@ -18319,7 +17110,6 @@ class ToolBar extends (LitElement) {
                 </map-panel>
                 <map-panel .active="${this.currentTool==="datacatalog"}">
                     <map-layer-container 
-                        
                         @movelayer="${e=>this.moveLayer(e)}" 
                         @updateopacity="${e => this.updateLayerOpacity(e)}"
                         @changefilter="${e=>this.updateLayerFilter(e)}"
@@ -18342,17 +17132,6 @@ class ToolBar extends (LitElement) {
 
             </div>
         </div>
-    
-        <!--
-        <map-data-catalog 
-            active=true
-            .datacatalog="${this.datacatalog}" 
-            .maplayers="${this.layerlist}" 
-            @addlayer="${(e) => this.addLayer(e.detail)}" 
-            @removelayer="${e=>this.removeLayer(e.detail)}"
-        ></map-data-catalog>
-        -->
-
         `;
     
     }
@@ -20766,6 +19545,8 @@ class GmBetaPotree extends LitElement$1 {
     super();
     this.position = [123159, 480612, 783];
     this.lookat = [123733,480676,481];
+    this.pointbudget = 5*1000*1000;
+    this.fov = 60;
   }
 
   render(){
@@ -20799,42 +19580,26 @@ class GmBetaPotree extends LitElement$1 {
       lookat: {type: Array},
       gmconfig: {type: Object},
       viewer: {type: Object},
-      measuringTool: {type: Object}
+      measuringTool: {type: Object},
+      pointbudget: {type: Number},
+      fov: {type: Number}
     }
   }
+  
   firstUpdated(){
-    
-    let viewer = new Potree.Viewer(this.shadowRoot.querySelector('#potree_render_area'));
-    
+    let viewer = this.viewer = new Potree.Viewer(this.shadowRoot.querySelector('#potree_render_area'));
     viewer.setEDLEnabled(true);
     viewer.setEDLRadius(1.3);
     viewer.setEDLStrength(0.4);
-    viewer.setFOV(60);
-    viewer.setPointBudget(5*1000*1000);
+    viewer.setFOV(this.fov);
+    viewer.setPointBudget(this.pointbudget);
     viewer.useHQ = true;
     viewer.loadSettingsFromURL();
-    //viewer.setDescription("AHN3 Amsterdam");
-    viewer.loadGUI(() => {
-            viewer.setLanguage('en');
-            $("#menu_appearance").next().show();
-    });
     viewer.scene.view.position.set(this.position[0], this.position[1], this.position[2]);
     viewer.scene.view.lookAt(new THREE.Vector3(this.lookat[0],this.lookat[1],this.lookat[2]));
     viewer.setBackground("skybox");
     this.measuringTool = new Potree.MeasuringTool(viewer);
-    this.viewer = viewer;
-
     
-
-  }
-  measureAngle(){
-    let measurement = this.measuringTool.startInsertion({
-      showDistances: false,
-      showAngles: true,
-      showArea: false,
-      closed: true,
-      maxMarkers: 3,
-      name: 'Angle'});
   }
 
   toggleVisible(layerid){
@@ -20842,7 +19607,8 @@ class GmBetaPotree extends LitElement$1 {
     layer.visible = layer.visible?false:true;
   }
 
-  addLayer(config){
+  async addLayer(config){
+    await this.updateComplete;
     //let url = "http://ngi.geodan.nl/maquette/colorized-points/ahn3_nl/ept-subsets/ept.json";
     //let name = "AHN3_Nederland";
     let url = config.url;
@@ -20858,7 +19624,9 @@ class GmBetaPotree extends LitElement$1 {
       //viewer.fitToScreen(0.5);
     });
   }
-  flyTo(center){
+  async flyTo(center){
+    // Wait for the updateComplete promise to resolve
+    await this.updateComplete;
     let view = this.viewer.scene.view;
     let position = {
       x:view.position.x,y:view.position.y,z:view.position.z
@@ -20896,31 +19664,7 @@ class GmBetaPotree extends LitElement$1 {
 
     
   }
-  set gmconfig(config){
-    this._gmconfig = config;
-    this.position = [
-      config.map.view.center.x,
-      config.map.view.center.y,
-      1500
-    ];
-    this.lookat = [
-      config.map.view.center.x,
-      config.map.view.center.y,
-      0
-    ];
-    this.viewer.scene.view.position.set(this.position[0], this.position[1], this.position[2]);
-    this.viewer.scene.view.lookAt(new THREE.Vector3(this.lookat[0],this.lookat[1],this.lookat[2]));
-
-    let layersept = this._gmconfig.map.layers.filter(d=>d.source.contenttype === 'ept');
-    layersept.forEach(l=>{
-      this.addLayer({
-        url: l.source.url,
-        id: String(l.id)
-      });
-    });
-
-    
-  }
+  
 }
 // Register the new element with the browser.
 customElements.define('gm-beta-potree', GmBetaPotree);
@@ -37164,101 +35908,29 @@ class PotreeViewer extends (LitElement) {
       layerlist: Array,
     }
   }
-  parseconfig(config){
-    this.thematiclayers = config.map.layers.filter(d=>d.isBaseLayer==false).map(d=>{
-      return {
-        id: String(d.id),
-        minzoom: 5.5,
-        maxzoom: 12.5,
-        metadata: {
-          getFeatureInfoUrl: null,
-          legendurl: null,
-          maplayeropen: false,
-          reference: false,
-          title: d.title,
-          userlayer: true,
-          wms: false
-        },
-        type: 'ept',
-        source: null
-      };
-    });
-
-    this.backgroundLayers = config.map.layers.filter(d=>d.isBaseLayer==true).map(d=>{
-      return {
-        id: String(d.id),
-        minzoom: 5.5,
-        maxzoom: 12.5,
-        metadata: {
-          getFeatureInfoUrl: null,
-          legendurl: null,
-          maplayeropen: false,
-          reference: false,
-          title: d.title,
-          userlayer: true,
-          wms: false
-        },
-        type: 'ept',
-        source: null
-      };
-    });
-
-    this.datacatalog = [{
-      type: "group",
-      title: "puntenwolken",
-      sublayers: config.map.layers.map(d=>{
-        return {
-          id: String(d.id),
-          type: "ept",
-          title: d.title,
-          layerInfo: {
-            id: String(d.id)
-          }
-        };
-      })
-    }];
-  
-    let el = this.shadowRoot.querySelector('gm-beta-potree');
-    el.gmconfig = config;
-      
-  }
-  updateLayerVisibility(layer){
-    console.log(layer);
-    let el = this.shadowRoot.querySelector('gm-beta-potree');
-    el.toggleVisible(layer.layerid);
-  }
-  fitBounds(e){
-    console.log(e.detail);
-    proj4.defs("EPSG:28992","+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs");
-    let point = proj4('EPSG:4326','EPSG:28992',e.detail.point);
-    let el = this.shadowRoot.querySelector('gm-beta-potree');
-    el.flyTo(point);
-  }
   constructor() {
     super();
-    let self = this;
     this.datacatalog = null;
     this.layerlist = [];
-    document.addEventListener('gm-document-retrieved',function(e) {
-      self.parseconfig(e.detail.data);
-    });
+    this.thematiclayers = [];
+    this.backgroundLayers = [];
   }
   render() {
     return html`
       <style>
       :host{
-          display: block;
-          width: 100%;
-          height: 100%;
+        display: block;
+        width: 100%;
+        height: 100%;
       }
       #tool-bar {
-            position: absolute;
-            display: block;
-            width: 100%; 
-            left: 10px;
-            top: 10px;
-            box-sizing: border-box;
-        }      
+        position: absolute;
+        display: block;
+        width: 100%; 
+        left: 10px;
+        top: 10px;
+        box-sizing: border-box;
+      }      
       
       #legend-container-container {
         position: absolute;
@@ -37275,30 +35947,28 @@ class PotreeViewer extends (LitElement) {
       </style>
 
       <gm-document-reader
-        environment="p"
-        gm-fire
-        is-public
-        is-public-account
-        get-data
-        account="GEOD5732RESE"
-        service="config"
-        name="17d55e26-e9d3-40c6-87c8-39baebc05df3"
+      environment="p"
+      gm-fire
+      is-public
+      is-public-account
+      get-data
+      account="GEOD5732RESE"
+      service="config"
+      name="17d55e26-e9d3-40c6-87c8-39baebc05df3"
+      @gm-document-retrieved="${(e)=>this.parseconfig(e.detail.data)}"
     ></gm-document-reader>
     <gm-profile-panel logo-url="./images/geodan_beta.png"
-        xdisplay-name="Voornaam Achternaam"
-        xshow-initials
-        geodan-maps-logout-url="https://services.geodan.nl/sso/sp/Logout"
-        ahp-logout-url="https://apps.geodan.nl/sso/sp/Logout"
-        logout-title="Uitloggen"
-        show-menu
-        menu-items='[{"title": "GeodanMaps", "url": "https://www.geodanmaps.nl/" }, {"title": "Geodan", "url": "https://www.geodan.nl"}]'></gm-profile-panel>
+      xdisplay-name="Voornaam Achternaam"
+      xshow-initials
+      geodan-maps-logout-url="https://services.geodan.nl/sso/sp/Logout"
+      ahp-logout-url="https://apps.geodan.nl/sso/sp/Logout"
+      logout-title="Uitloggen"
+      show-menu
+      menu-items='[{"title": "GeodanMaps", "url": "https://www.geodanmaps.nl/" }, {"title": "Geodan", "url": "https://www.geodan.nl"}]'
+    ></gm-profile-panel>
    
-    <gm-beta-potree 
-      center="[203064,502020]",
-      zoom="14.3",
-      bearing="0",
-      pitch="45"
-    ></gm-beta-potree>
+    <gm-beta-potree></gm-beta-potree>
+
     <tool-bar 
       .thematiclayers="${this.thematiclayers}"
       .backgroundLayers="${this.backgroundLayers}"
@@ -37306,6 +35976,55 @@ class PotreeViewer extends (LitElement) {
       @updatevisibility="${(e) => this.updateLayerVisibility(e.detail)}"
       ></tool-bar>
   `;
+  }
+  parseconfig(config){
+    let alllayers = config.map.layers.map(d=>{
+      return {
+        id: String(d.id),
+        minzoom: 5.5,
+        maxzoom: 12.5,
+        metadata: {
+          getFeatureInfoUrl: null,
+          legendurl: null,
+          maplayeropen: false,
+          reference: false,
+          title: d.title,
+          userlayer: true,
+          wms: false
+        },
+        type: 'ept',
+        source: null,
+        isBaseLayer: d.isBaseLayer
+      };
+    });
+    let toolbar = this.shadowRoot.querySelector('tool-bar');
+    toolbar.thematiclayers = alllayers.filter(d=>d.isBaseLayer==false);
+    toolbar.backgroundLayers = alllayers.filter(d=>d.isBaseLayer==true);
+
+    let el = this.shadowRoot.querySelector('gm-beta-potree');
+    el.position = [config.map.view.center.x,config.map.view.center.y,1500];
+    el.lookat = [config.map.view.center.x,config.map.view.center.y,0];
+
+    let layersept = config.map.layers.filter(d=>d.source.contenttype === 'ept');
+    layersept.forEach(l=>{
+      el.addLayer({
+        url: l.source.url,
+        id: String(l.id)
+      });
+    });
+    
+  }
+  updateLayerVisibility(layer){
+    console.log(layer);
+    let el = this.shadowRoot.querySelector('gm-beta-potree');
+    el.toggleVisible(layer.layerid);
+  }
+  fitBounds(e){
+    console.log(e.detail);
+    proj4.defs("EPSG:28992","+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.417,50.3319,465.552,-0.398957,0.343988,-1.8774,4.0725 +units=m +no_defs");
+    let point = proj4('EPSG:4326','EPSG:28992',e.detail.point);
+    let el = this.shadowRoot.querySelector('gm-beta-potree');
+    el.flyTo(point);
   }
 }
 

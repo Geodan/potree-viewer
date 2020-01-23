@@ -44,11 +44,14 @@ class ToolBar extends (LitElement) {
     constructor(){
         super();
         this.currentTool = '';
+        this.layerlist = [];
+        this.thematiclayers = [];
+        this.backgroundLayers = [];
         this.toolList = [
             {name:"toolbar", visible: true, position: "opened", order: 0, info:""},
             {name:"search", visible: true, position: "", order: 100, info:"Naam, plaats of adres zoeken", icon: gmSearchIcon},
             {name:"datacatalog", visible: true, position: "", order: 101, info:"Kaartlagen", icon:layermanagerIcon},
-            {name:"measure", visible: true, position: "", order: 102, info:"Afstand en oppervlakte meten", icon: measureIcon},
+            //{name:"measure", visible: true, position: "", order: 102, info:"Afstand en oppervlakte meten", icon: measureIcon},
             //{name:"info", visible: true, position: "", order: 103, info: "Informatie uit de kaart halen", icon: infoIcon},
             //{name:"maplanguage", visible: true, position: "", order: 104, info: "Kaarttaal", icon: languageIcon},
             //{name:"pitch", visible: true, position: "", order: 105, info: "Kaarthoek", icon: threeDIcon},
@@ -250,7 +253,6 @@ class ToolBar extends (LitElement) {
                 </map-panel>
                 <map-panel .active="${this.currentTool==="datacatalog"}">
                     <map-layer-container 
-                        
                         @movelayer="${e=>this.moveLayer(e)}" 
                         @updateopacity="${e => this.updateLayerOpacity(e)}"
                         @changefilter="${e=>this.updateLayerFilter(e)}"
@@ -273,17 +275,6 @@ class ToolBar extends (LitElement) {
 
             </div>
         </div>
-    
-        <!--
-        <map-data-catalog 
-            active=true
-            .datacatalog="${this.datacatalog}" 
-            .maplayers="${this.layerlist}" 
-            @addlayer="${(e) => this.addLayer(e.detail)}" 
-            @removelayer="${e=>this.removeLayer(e.detail)}"
-        ></map-data-catalog>
-        -->
-
         `;
     
     }

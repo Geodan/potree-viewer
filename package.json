@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Viewer demonstrating potree with GM components",
   "main": "./src/index.html",
+  "publishConfig": {
+    "registry": "https://repo.geodan.io/repository/npm-hosted/"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "git clone https://github.com/connormanning/potree.entwine.io.git"
   },
   "repository": {
     "type": "git",
