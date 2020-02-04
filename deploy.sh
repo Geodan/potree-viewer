@@ -1,4 +1,4 @@
 #/bin/bash
 
 rollup -c rollup.config.js
-rsync -ark * saturnus:/var/data/html/beta/puntenwolken
+rsync -ark * saturnus.geodan.nl:/var/data/html/beta/puntenwolken

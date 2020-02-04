@@ -4,7 +4,6 @@ import "@geodan/gm-beta-potree/build/gm-beta-potree"
 import "@geodan/gm-profile-panel/build/dist/gm-profile-panel"
 import "@geodan/gm-document-reader/build/dist/gm-document-reader"
 
-
 class PotreeViewer extends (LitElement) {
   static get properties() {
     return {
@@ -15,6 +14,8 @@ class PotreeViewer extends (LitElement) {
   }
   constructor() {
     super();
+    this.account = this.getUrlParam('account','GEOD5732RESE');
+    this.configname = this.getUrlParam('config','538a8b4d-370e-4410-a3a8-0ef27f131649');
     this.datacatalog = null;
     this.layerlist = [];
     this.thematiclayers = [];
@@ -57,9 +58,9 @@ class PotreeViewer extends (LitElement) {
       is-public
       is-public-account
       get-data
-      account="GEOD5732RESE"
+      .account="${this.account}"
       service="config"
-      name="17d55e26-e9d3-40c6-87c8-39baebc05df3"
+      .name="${this.configname}"
       @gm-document-retrieved="${(e)=>this.parseconfig(e.detail.data)}"
     ></gm-document-reader>
     <gm-profile-panel logo-url="./images/geodan_beta.png"
@@ -81,6 +82,21 @@ class PotreeViewer extends (LitElement) {
       @updatevisibility="${(e) => this.updateLayerVisibility(e.detail)}"
       ></tool-bar>
   `;
+  }
+  getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+  }
+
+  getUrlParam(parameter, defaultvalue){
+    var urlparameter = defaultvalue;
+    if(window.location.href.indexOf(parameter) > -1){
+        urlparameter = this.getUrlVars()[parameter];
+        }
+    return urlparameter;
   }
   parseconfig(config){
     let alllayers = config.map.layers.map(d=>{

@@ -35913,6 +35913,8 @@ input[type=range]:focus::-ms-fill-upper {
       }
       constructor() {
         super();
+        this.account = this.getUrlParam('account','GEOD5732RESE');
+        this.configname = this.getUrlParam('config','bcc74133-5a27-47f7-9bf1-1e649497bc7b');
         this.datacatalog = null;
         this.layerlist = [];
         this.thematiclayers = [];
@@ -35955,9 +35957,9 @@ input[type=range]:focus::-ms-fill-upper {
       is-public
       is-public-account
       get-data
-      account="GEOD5732RESE"
+      .account="${this.account}"
       service="config"
-      name="17d55e26-e9d3-40c6-87c8-39baebc05df3"
+      .name="${this.configname}"
       @gm-document-retrieved="${(e)=>this.parseconfig(e.detail.data)}"
     ></gm-document-reader>
     <gm-profile-panel logo-url="./images/geodan_beta.png"
@@ -35979,6 +35981,21 @@ input[type=range]:focus::-ms-fill-upper {
       @updatevisibility="${(e) => this.updateLayerVisibility(e.detail)}"
       ></tool-bar>
   `;
+      }
+      getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+      }
+
+      getUrlParam(parameter, defaultvalue){
+        var urlparameter = defaultvalue;
+        if(window.location.href.indexOf(parameter) > -1){
+            urlparameter = this.getUrlVars()[parameter];
+            }
+        return urlparameter;
       }
       parseconfig(config){
         let alllayers = config.map.layers.map(d=>{
