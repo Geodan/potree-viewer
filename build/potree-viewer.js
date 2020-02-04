@@ -19546,9 +19546,9 @@ input[type=range]:focus::-ms-fill-upper {
 
       constructor(){
         super();
-        this.position = [123159, 480612, 783];
+        this._position = [123159, 480612, 783];
         this.lookat = [123733,480676,481];
-        this.pointbudget = 5*1000*1000;
+        this.pointbudget = 0.1*1000*1000;
         this.fov = 60;
       }
 
@@ -19589,6 +19589,13 @@ input[type=range]:focus::-ms-fill-upper {
         }
       }
       
+      goTo(position){
+        this._position = position;
+        this.viewer.scene.view.position.set(this._position[0]+100, this._position[1]+100, 200);
+        this.viewer.scene.view.lookAt(new THREE.Vector3(this._position[0], this._position[1], 0));
+        
+      }
+
       firstUpdated(){
         let viewer = this.viewer = new Potree.Viewer(this.shadowRoot.querySelector('#potree_render_area'));
         viewer.setEDLEnabled(true);
@@ -19598,7 +19605,7 @@ input[type=range]:focus::-ms-fill-upper {
         viewer.setPointBudget(this.pointbudget);
         viewer.useHQ = true;
         viewer.loadSettingsFromURL();
-        viewer.scene.view.position.set(this.position[0], this.position[1], this.position[2]);
+        viewer.scene.view.position.set(this._position[0], this._position[1], this._position[2]);
         viewer.scene.view.lookAt(new THREE.Vector3(this.lookat[0],this.lookat[1],this.lookat[2]));
         viewer.setBackground("skybox");
         this.measuringTool = new Potree.MeasuringTool(viewer);
@@ -19627,6 +19634,7 @@ input[type=range]:focus::-ms-fill-upper {
           //viewer.fitToScreen(0.5);
         });
       }
+      
       async flyTo(center){
         // Wait for the updateComplete promise to resolve
         await this.updateComplete;
@@ -19663,13 +19671,9 @@ input[type=range]:focus::-ms-fill-upper {
             view.position.set(position.x,position.y,position.z);
         });
 
-        tweenout.chain(tweenin).start();
-
-        
-      }
-      
+        tweenout.chain(tweenin).start(); 
+      } 
     }
-    // Register the new element with the browser.
     customElements.define('gm-beta-potree', GmBetaPotree);
 
     /**
@@ -35914,7 +35918,7 @@ input[type=range]:focus::-ms-fill-upper {
       constructor() {
         super();
         this.account = this.getUrlParam('account','GEOD5732RESE');
-        this.configname = this.getUrlParam('config','bcc74133-5a27-47f7-9bf1-1e649497bc7b');
+        this.configname = this.getUrlParam('config','538a8b4d-370e-4410-a3a8-0ef27f131649');
         this.datacatalog = null;
         this.layerlist = [];
         this.thematiclayers = [];
@@ -36022,9 +36026,10 @@ input[type=range]:focus::-ms-fill-upper {
         toolbar.backgroundLayers = alllayers.filter(d=>d.isBaseLayer==true);
 
         let el = this.shadowRoot.querySelector('gm-beta-potree');
-        el.position = [config.map.view.center.x,config.map.view.center.y,1500];
-        el.lookat = [config.map.view.center.x,config.map.view.center.y,0];
-
+        el.goTo([config.map.view.center.x,config.map.view.center.y]);
+        //el.lookat = [config.map.view.center.x,config.map.view.center.y,0];
+        //el.flyTo([config.map.view.center[0],config.map.view.center[1]]);
+        
         let layersept = config.map.layers.filter(d=>d.source.contenttype === 'ept');
         layersept.forEach(l=>{
           el.addLayer({

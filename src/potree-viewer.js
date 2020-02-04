@@ -123,9 +123,10 @@ class PotreeViewer extends (LitElement) {
     toolbar.backgroundLayers = alllayers.filter(d=>d.isBaseLayer==true);
 
     let el = this.shadowRoot.querySelector('gm-beta-potree');
-    el.position = [config.map.view.center.x,config.map.view.center.y,1500];
-    el.lookat = [config.map.view.center.x,config.map.view.center.y,0];
-
+    el.goTo([config.map.view.center.x,config.map.view.center.y]);
+    //el.lookat = [config.map.view.center.x,config.map.view.center.y,0];
+    //el.flyTo([config.map.view.center[0],config.map.view.center[1]]);
+    
     let layersept = config.map.layers.filter(d=>d.source.contenttype === 'ept');
     layersept.forEach(l=>{
       el.addLayer({
