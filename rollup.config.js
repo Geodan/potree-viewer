@@ -7,7 +7,7 @@ export default {
         input: ['src/potree-viewer.js'],
         output: {
                 file: 'build/potree-viewer.js',
-                format: 'es',
+                format: 'iife',
                 sourcemap: true
         },
         plugins: [

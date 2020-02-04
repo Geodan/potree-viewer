@@ -1,6 +1,6 @@
 import { LitElement, html } from 'lit-element'
 import "./tool-bar"
-import "gm-beta-potree/build/gm-beta-potree"
+import "@geodan/gm-beta-potree/build/gm-beta-potree"
 import "@geodan/gm-profile-panel/build/dist/gm-profile-panel"
 import "@geodan/gm-document-reader/build/dist/gm-document-reader"
 
